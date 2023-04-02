@@ -1,0 +1,182 @@
+html {
+  font-size: 62.5%;
+}
+
+/*---Global structure---*/
+body::after {
+  content: "";
+  background-image: url("images/bg.jpg");
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  margin-bottom: 5px;
+  overflow: auto;
+  width: auto;
+}
+header img {
+  width: 150px;
+  height: 110px;
+  float: left;
+  margin-right: 120px;
+  margin-top: 15px;
+}
+li {
+  font-size: 1.5rem;
+  display: inline;
+  margin-right: 30px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+hr.dotted {
+  border-top: 3px dotted #04fa2d;
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: black;
+  color: antiquewhite;
+}
+/*---Home page--*/
+
+img.hero {
+  height: 250px;
+  width: 250px;
+  float: right;
+}
+.contain {
+  font-family: "Montserrat", sans-serif;
+  margin: 150, 100, 150, 100;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.12rem;
+  line-height: 1.5;
+}
+article.about {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+.about h3 {
+  font-size: 1.3rem;
+}
+
+.about li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+  display: flex;
+  flex-direction: column;
+}
+/*----Staff--*/
+
+img.ts {
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+article.staff {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+  line-height: 1.5;
+}
+article li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+  display: flex;
+  flex-direction: column;
+}
+div.card {
+  margin: 20, 20, 20, 20;
+  padding: 20, 20, 20, 20;
+}
+/*----Services---*/
+
+img.services {
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+section.prices {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+}
+/*---Self help--*/
+
+div.video {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+  margin-bottom: 10px;
+}
+/*--contact us---*/
+section.map{
+    float:left;
+}
+
+div.container{
+    position: absolute;
+    right: 80px;
+    top:200px;
+    font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
