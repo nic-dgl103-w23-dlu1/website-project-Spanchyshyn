@@ -62,7 +62,7 @@ img.hero {
 }
 .contain {
   font-family: "Montserrat", sans-serif;
-  margin: 150, 100, 150, 100;
+  margin: 150px 100px 150px 100px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -112,8 +112,8 @@ article li {
   flex-direction: column;
 }
 div.card {
-  margin: 20, 20, 20, 20;
-  padding: 20, 20, 20, 20;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 /*----Services---*/
 
